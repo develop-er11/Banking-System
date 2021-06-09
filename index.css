@@ -1,0 +1,89 @@
+/*google font*/
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700,800,900&display=swap');
+
+/*slider*/
+
+#carouselExampleIndicators {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+
+#carouselExampleIndicators .carousel-inner {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background: #000;
+}
+
+#carouselExampleIndicators .carousel-inner:before {
+    position: absolute;
+    content: '';
+    background: rgba(0, 0, 0, 0.45);
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+
+#carouselExampleIndicators .carousel-inner .carousel-item {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-image: url('https://images.unsplash.com/photo-1550565118-3a14e8d0386f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80');
+    background-size: 100% 100%;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#carouselExampleIndicators .carousel-inner .carousel-item:nth-child(2) {
+    background: url('https://images.unsplash.com/photo-1518458028785-8fbcd101ebb9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80');
+    background-size: 100% 100%;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#carouselExampleIndicators .carousel-inner .carousel-item:nth-child(3) {
+    background: url('https://images.unsplash.com/photo-1583574928108-53be39420a8d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80');
+    background-size: 100% 100%;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#carouselExampleIndicators .carousel-inner .carousel-item .info {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    height: auto;
+    width: 100%;
+    z-index: 1;
+    text-align: center;
+}
+
+#carouselExampleIndicators .carousel-inner .carousel-item h1 {
+    height: auto;
+    color: #fff;
+    width: 100%;
+    z-index: 1;
+    text-align: center;
+    font-size: 5.5em;
+    font-weight: 750;
+}
+
+#carouselExampleIndicators .carousel-inner .carousel-item p {
+    height: auto;
+    color: #ccc;
+    width: 100%;
+    z-index: 1;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.btn-success {
+    color: black !important;
+    background-color: #f9fdfa !important;
+    border-color: rgb(36, 46, 177) !important;
+}
